@@ -1,0 +1,103 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;700;800&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+body {
+    /* font-family: 'Luckiest Guy', cursive; */
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: #23272A;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+p {
+    color: #23272A;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header {
+    height: 50.6rem;
+    background-image: url('../images/header-mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7rem 2.4rem;
+}
+.header__title {
+    max-width: 27rem;
+    color: #FFF;
+    font-family: Luckiest Guy;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.4rem;
+}
+.header__desc {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 2.4rem;
+}
+.header__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    border-radius: 28px;
+    text-align: center;
+    padding-block: 1.6rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn--white {
+    background: #FFF;
+    color: #23272A;
+}
+.btn--dark {
+    background: #23272A;
+    color: #FFF;
+}
+.bg--gray {
+    background: #F6F6F6;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+    padding: 4rem 2.4rem;
+    max-width: 1080px;
+    margin-inline: auto;
+}
+.content--column .content__picture {
+    order: 1;
+}
+.content__description .title {
+    margin-bottom: 2.7rem;
+}
+
+.footer {
+    background: #23272A;
+}
+.footer .footer__picture {
+    display: block;
+    margin-inline: auto;
+    max-width: fit-content;
+    padding-block: 3.6rem;
+}

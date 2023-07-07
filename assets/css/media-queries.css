@@ -1,0 +1,58 @@
+@media (min-width: 768px){
+    .header {
+        height: 45.9rem;
+        background: url('../images/header-desktop.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 9.4rem;
+    }
+    .header__title {
+        text-align: center;
+        margin-inline: auto;
+        font-size: 5.6rem;
+        max-width: 31.3rem;
+    }
+    .header__desc {
+        text-align: center;
+        margin-inline: auto;
+        max-width: 75.7rem;
+    }
+    .header__links {
+        max-width: 50rem;
+        flex-direction: row;
+        margin-inline: auto;
+    }
+    .btn {
+        width: initial;
+        padding-inline: 1.6rem ;
+    }
+
+    .content {
+        flex-direction: row;
+    }
+    .content--column {
+        flex-direction: column;
+    }
+    .content--column .content__description {
+        max-width: 77rem;
+        margin-inline: auto;
+        text-align: center;
+    }
+    .content--column .content__picture img {
+        display: block;
+        margin-inline: auto;
+    }
+    .content--order .content__picture {
+        order: 1;
+    }
+    .content__picture {
+        flex-grow: 2;
+    }
+    .content__description {
+        max-width: 32rem;
+    }
+    .content__description .title {
+        font-size: 4rem;
+        
+    }
+}
